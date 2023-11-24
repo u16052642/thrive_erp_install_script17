@@ -9,9 +9,9 @@ This script can be safely used in a multi-thrive code base server because the de
 
 sudo wget https://raw.githubusercontent.com/u16052642/thrive_erp_install_script17/divinlonji_thrive_ent1768/thrive1768_install.sh
 
-sudo chmod +x thrive1668_install.sh
+sudo chmod +x thrive1768_install.sh
 
-sudo ./thrive1668_install.sh
+sudo ./thrive1768_install.sh
 
 
 
