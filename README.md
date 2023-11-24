@@ -6,7 +6,7 @@ This script can be safely used in a multi-thrive code base server because the de
 
 
 ##### 1. Download the script:
-sudo wget https://raw.githubusercontent.com/u16052642/thrive_erp_install_script17/divinlonji_thrive_ent1669/thrive1668_install.sh
+sudo wget https://raw.githubusercontent.com/u16052642/thrive_erp_install_script17/divinlonji_thrive_ent1668/thrive1668_install.sh
 
 sudo chmod +x thrive1668_install.sh
 
