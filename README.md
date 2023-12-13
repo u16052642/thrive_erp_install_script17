@@ -20,7 +20,7 @@ sudo apt-get upgrade -y
 sudo apt -y install net-tools vim screen curl tcpdump sysstat wget telnet bmon htop mlocate
 
 step 1)
-sudo wget https://raw.githubusercontent.com/u16052642/thrive_erp_install_script17/divinlonji_thrive_ent1768/thrive1768_install.sh
+sudo wget https://raw.githubusercontent.com/u16052642/thrive_erp_install_script17/master/thrive1768_install.sh
 
 step 2)
 sudo chmod +x thrive1768_install.sh
