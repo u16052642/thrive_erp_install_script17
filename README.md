@@ -3,7 +3,7 @@
 Thrive Bureau ERP Installation Instruction
 
 open ports:
-8069 -App
+8068 -App
 8074 - logs
 
 How to calculate RAM size needed:
