@@ -1,9 +1,9 @@
-OE_USER="thrive1668"
+OE_USER="thrive1768"
 OE_HOME="/$OE_USER"
 OE_HOME_EXT="/$OE_USER/${OE_USER}-server"
 INSTALL_WKHTMLTOPDF="False"
-OE_PORT="8069"
-OE_VERSION="main"
+OE_PORT="8068"
+OE_VERSION="master"
 IS_ENTERPRISE="False"
 # Installs postgreSQL V14 instead of defaults (e.g V12 for Ubuntu 20/22) - this improves performance
 INSTALL_POSTGRESQL_FOURTEEN="True"
@@ -13,7 +13,7 @@ OE_SUPERADMIN="admin"
 GENERATE_RANDOM_PASSWORD="False"
 OE_CONFIG="${OE_USER}-server"
 WEBSITE_NAME="_"
-LONGPOLLING_PORT="8074"
+LONGPOLLING_PORT="8072"
 ENABLE_SSL="False"
 ADMIN_EMAIL="thrivebureauerp@gmail.com"
 ##
@@ -90,7 +90,7 @@ else
 fi
 
 echo -e "\n---- Create Eagle system user ----"
-sudo adduser --system --quiet --shell=/bin/bash --home=$OE_HOME --gecos 'THRIVE1668' --group $OE_USER
+sudo adduser --system --quiet --shell=/bin/bash --home=$OE_HOME --gecos 'THRIVE1768' --group $OE_USER
 #The user should also be added to the sudo'ers group.
 sudo adduser $OE_USER sudo
 
@@ -102,7 +102,7 @@ sudo chown $OE_USER:$OE_USER /var/log/$OE_USER
 # Install Eagle
 #--------------------------------------------------
 echo -e "\n==== Installing Eagle Server ===="
-sudo git clone --depth 1 --branch $OE_VERSION https://github.com/u16052642/thrive_bureau_erp $OE_HOME_EXT/
+sudo git clone --depth 1 --branch $OE_VERSION https://github.com/u16052642/thrive_bureau_erp17 $OE_HOME_EXT/
 
 if [ $IS_ENTERPRISE = "True" ]; then
     # Eagle Enterprise install!
